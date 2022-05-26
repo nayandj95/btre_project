@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'btre',
         'HOST': 'localhost',
         'USER': 'root',
-        'PASSWORD': '8049renu'
+        'PASSWORD': 'SQL_password', #please enter password to enable database
     }
 }
 
@@ -152,6 +152,8 @@ MESSAGE_TAGS = {
 #email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'makwananayan7368@gmail.com'
-EMAIL_HOST_PASSWORD = '311163@MAkwana' 
+EMAIL_HOST_USER = 'host-gmail'
+EMAIL_HOST_PASSWORD = 'host-password' 
 EMAIL_USE_TLS = True
+# enter host gmail address and password
+# also enable less secure app access in gmail settings
